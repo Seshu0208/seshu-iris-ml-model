@@ -1,4 +1,4 @@
-# 🌸 Iris Machine Learning Classification Pipeline
+#  Iris Machine Learning Classification Pipeline
 
 This repository demonstrates an **end-to-end Iris classification machine learning pipeline** built with Python.  
 It covers **model training, evaluation, unit testing, and automated CI/CD** using **GitHub Actions**, including **parallel, sequential, and multi-stage workflows**.
