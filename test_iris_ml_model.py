@@ -16,8 +16,8 @@ def test_data_loading():
 def test_no_missing_values():
     
     df = load_data()
-    X = df.iloc[:, :-1]
-    y = df.iloc[:, -1]
+    X = df.iloc[:, :-1].to_numpy()
+    y = df.iloc[:, -1].to_numpy()
 
     assert not np.isnan(X).any()
     assert not np.isnan(y).any()
