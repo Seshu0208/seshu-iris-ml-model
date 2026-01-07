@@ -1,15 +1,31 @@
-This repository demonstrates an end-to-end Iris classification machine learning pipeline using Python, including model training, evaluation, unit testing, and automated CI/CD using GitHub Actions with parallel, sequential, and multi-stage workflows.
+# 🌸 Iris Machine Learning Classification Pipeline
 
-Project Overview
+This repository demonstrates an **end-to-end Iris classification machine learning pipeline** built with Python.  
+It covers **model training, evaluation, unit testing, and automated CI/CD** using **GitHub Actions**, including **parallel, sequential, and multi-stage workflows**.
 
-Train and evaluate a classification model using the Iris dataset
+---
 
-Validate model logic using pytest
+## 📌 Project Overview
 
-Manage dependencies via requirements.txt
+The project includes the following key components:
 
-Automate testing and security checks using GitHub Actions
+- 📊 **Model Training & Evaluation**
+  - Train and evaluate a classification model using the Iris dataset.
 
-Ensure compatibility across multiple Python versions
+- 🧪 **Unit Testing**
+  - Validate model logic and evaluation metrics using **pytest**.
 
-Enforce security gates before merge
+- 📦 **Dependency Management**
+  - Manage project dependencies through a `requirements.txt` file.
+
+- 🤖 **CI/CD Automation**
+  - Automate testing and validation using **GitHub Actions**.
+
+- ⚡ **Parallel & Multi-Stage Pipelines**
+  - Execute tests across **multiple Python versions** in parallel.
+  - Enforce sequential stages for security validation.
+
+- 🔐 **Security Gates**
+  - Integrate security scans to block merges on detected issues.
+
+---
