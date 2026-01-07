@@ -21,8 +21,8 @@ jobs:
     - name: Install required libraries
       run: |
         python -m pip install --upgrade pip
-        pip install numpy pandas scikit-learn
+        pip install -r requirements.txt
 
-    - name: Run ML script
+    - name: Run pytest for Iris ML Model
       run: |
-        python iris_ml_model.py
+        pytest -v
