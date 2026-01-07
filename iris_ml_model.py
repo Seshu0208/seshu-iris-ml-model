@@ -43,11 +43,11 @@ def evaluate_model(knn, X_test, y_test):
 
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    knn, X_test, y_test = train_model()
+#     knn, X_test, y_test = train_model()
 
-    acc, cls_report = evaluate_model(knn, X_test, y_test)
+#     acc, cls_report = evaluate_model(knn, X_test, y_test)
 
-    print(acc)
-    print(cls_report)
+#     print(acc)
+#     print(cls_report)
